@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemonlineDownloader.DAL", "RemonlineDownloader.DAL\RemonlineDownloader.DAL.csproj", "{08289231-659E-4EB3-AEE1-97EE2B05C666}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemonlineDownloader.BL", "RemonlineDownloader.BL\RemonlineDownloader.BL.csproj", "{A7F182BF-05C2-4BD7-90C3-961C9B775DCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemonlineDownloader.UI", "RemonlineDownloader.UI\RemonlineDownloader.UI.csproj", "{8CB019E1-2B5E-4035-BEFE-8BD39320A8D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemonlineDownloader.Core", "RemonlineDownloader.Core\RemonlineDownloader.Core.csproj", "{575F1599-22F9-4729-8479-5C7AF65E3BF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{FD4996DF-C8A2-4981-B95C-D5DFE98010C6}"
+	ProjectSection(SolutionItems) = preProject
+		Images\logo-light.svg = Images\logo-light.svg
+		Images\logo.png = Images\logo.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDebug", "ConsoleDebug\ConsoleDebug.csproj", "{608DEF57-44BE-45AA-AB44-4722438580FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08289231-659E-4EB3-AEE1-97EE2B05C666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08289231-659E-4EB3-AEE1-97EE2B05C666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08289231-659E-4EB3-AEE1-97EE2B05C666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08289231-659E-4EB3-AEE1-97EE2B05C666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F182BF-05C2-4BD7-90C3-961C9B775DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F182BF-05C2-4BD7-90C3-961C9B775DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F182BF-05C2-4BD7-90C3-961C9B775DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F182BF-05C2-4BD7-90C3-961C9B775DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB019E1-2B5E-4035-BEFE-8BD39320A8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB019E1-2B5E-4035-BEFE-8BD39320A8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB019E1-2B5E-4035-BEFE-8BD39320A8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB019E1-2B5E-4035-BEFE-8BD39320A8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575F1599-22F9-4729-8479-5C7AF65E3BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575F1599-22F9-4729-8479-5C7AF65E3BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575F1599-22F9-4729-8479-5C7AF65E3BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575F1599-22F9-4729-8479-5C7AF65E3BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{608DEF57-44BE-45AA-AB44-4722438580FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608DEF57-44BE-45AA-AB44-4722438580FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608DEF57-44BE-45AA-AB44-4722438580FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608DEF57-44BE-45AA-AB44-4722438580FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E65DC6DA-0B70-429C-91D6-FCE4ABC18648}
+	EndGlobalSection
+EndGlobal

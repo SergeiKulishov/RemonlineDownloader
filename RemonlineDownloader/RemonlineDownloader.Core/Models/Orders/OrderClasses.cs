@@ -157,6 +157,8 @@ namespace RemskladDesktop.Orders
         public long? assigned_at { get; set; }
         public int? duration { get; set; }
         public long? scheduled_for { get; set; }
+
+        
     }
 
     public class Root
